@@ -23,7 +23,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.5'
+          python-version: '3.5.4'
       - name: Download and install chromedriver
         run: sudo apt install chromium-chromedriver
       - name: Install Loconotion dependencies
